@@ -92,7 +92,9 @@ static int voice_send_cvp_topology_commit_cmd(struct voice_data *v);
 static int voice_send_cvp_channel_info_cmd(struct voice_data *v);
 static int voice_send_cvp_channel_info_v2(struct voice_data *v,
 					  uint32_t param_type);
+#if (0)
 static int voice_get_avcs_version_per_service(uint32_t service_id);
+#endif
 
 static void voice_load_topo_modules(int cal_index);
 static void voice_unload_topo_modules(void);
@@ -4407,6 +4409,7 @@ static int voice_send_cvp_mfc_config_cmd(struct voice_data *v)
 	return ret;
 }
 
+#if (0)
 static int voice_get_avcs_version_per_service(uint32_t service_id)
 {
 	int ret = 0;
