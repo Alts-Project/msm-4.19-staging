@@ -30,6 +30,7 @@
 	};
 	
 };
+
 &cci {
 	qcom,camera@2 {
 			qcom,led-flash-src = <&led_flash1>;

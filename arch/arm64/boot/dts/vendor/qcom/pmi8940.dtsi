@@ -590,4 +590,4 @@
 			qcom,misc-trim-error-rc19p2-clk-reg-present;
 		};
 	};
-}
+};
