@@ -409,7 +409,7 @@ static int mdss_dsi_panel_power_off(struct mdss_panel_data *pdata)
 		if (mdss_dsi_pinctrl_set_state(ctrl_pdata, false))
 			pr_debug("reset disable: pinctrl not enabled\n");
 
-		ret = msm_dss_enable_vreg(
+		ret = msm_mdss_enable_vreg(
 			ctrl_pdata->panel_power_data.vreg_config,
 			ctrl_pdata->panel_power_data.num_vreg, 0);
 		if (ret)
