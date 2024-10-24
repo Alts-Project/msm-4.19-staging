@@ -454,8 +454,6 @@ config MACH_XIAOMI
 	help
 	  This enables support for Xiaomi devices.
 
-if MACH_XIAOMI
-
 config MACH_XIAOMI_MSM8953
 	bool
 	select ARCH_QCOM
