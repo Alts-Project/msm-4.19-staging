@@ -18,7 +18,7 @@
 #include "msm8953-mtp.dtsi"
 #include "msm8953-pmi8940.dtsi"
 
-#include "ysl/ysl.dtsi"
+#include "ysl-v2/ysl.dtsi"
 
 / {
 	model = "Qualcomm Technologies, Inc. MSM8953 + PMI8940 MTP";
